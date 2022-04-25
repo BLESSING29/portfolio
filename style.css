@@ -1,0 +1,198 @@
+body{
+padding: 2px 2px;
+    font-size: 30px;
+    font-weight: 10px;
+    font-style: unset;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(149, 112, 241);
+    padding: 5px 5px;
+    border-radius:30px ;
+}
+.profil{
+    display: flex;
+    align-items: center;
+}
+.img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+h1{
+    font-size: 15px;
+    margin-left: 10px;
+ 
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+li{
+    margin-left: 20px;
+    cursor: pointer;
+}
+li a:hover{
+    border-bottom-color:#000;
+    color: green;
+    
+}
+.page-content{
+    margin: 4px;
+}
+header{
+    margin-top:5% ;
+    max-width: 70%;
+    background-image: url(jpg/mag3.jpg);
+}
+.cage{
+    margin: 0px;
+    font-size: 5vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+p{
+    line-height: 50px;
+    color: #818181;
+}
+.page-content button{
+   background-color: yellow ;
+   border: solid black;
+   border-radius: 30px;
+   box-shadow:10px 5px  black;
+   outline: none;
+   padding: 30px;
+   font-size: 30px;
+   border-bottom: 1px solid rgb(94, 63, 63);
+   padding-bottom: 5px;
+   cursor: pointer;
+}
+button:hover{
+    color:rgb(10, 226, 172) ;
+    border-bottom-color:#000 ;
+}
+.present-image{
+    margin-top: 5%;
+   
+}
+img{
+    max-width: 100%;
+    max-height:auto ;
+    transition: filter 0,5s;
+}
+img:hover{
+    filter: brightness(50%);
+}
+footer{
+    margin-top: 5%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(231, 33, 155);
+    color: #000;
+    padding: 10px;
+}
+p{
+    color: rgb(15, 25, 170);
+}
+footer.colonnes p{
+    font-size: 30px;
+    color: #ccc;
+    cursor: pointer;
+}
+footer.colonnes p:hover{
+color: #fff;
+}
+.projets{
+    margin-top: 6%;
+}
+.projets .content{
+    text-transform: uppercase;
+    font-size: 3vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.projets .projs{
+    display: flex;
+    flex-wrap: wrap;
+}
+.projets .projs .projet{
+   
+    margin-right: 30px; 
+    max-width: 30%;
+}
+.projets .projs .projet h4{
+    margin: 0;  
+    color: rgb(247, 123, 21);  
+}
+.description{
+    font-size: medium;
+    color:white;
+    
+}
+.img1{
+    background-image: url(jpg/developper2.jpg);
+}
+.img2{
+    background-image: url(jpg/image2.jpg);
+}
+.img3{
+    background-image: url(jpg/image3.jfif);
+}
+.projets button{
+      color: aliceblue;
+      font-size: 15px;
+      background-color: #000;
+      border: solid rgb(2, 2, 34);
+      border-radius: 30px;
+      padding: 10px;
+      width: 130px;
+      height: 50px;
+      box-shadow:10px 5px #818181;
+    padding-bottom: 20px ;
+    margin-bottom:10px ;
+      cursor: pointer;
+}
+.projets button a{
+    color:  none;
+}
+@media screen and (max-width:700px) {
+    nav{
+        justify-content: center;
+    }
+    ul{
+        display: none;
+    }
+    .projets{
+        margin-top: 15%;
+    }
+   section .projets h1{
+       font-size: 1,5em;
+   }
+   .projets .projet{
+       margin-right: 0;
+       margin-bottom: 20px;
+       max-width: 100%;
+   }
+.page-content header{
+    margin-top: 10%;
+    max-width:100%;
+}
+footer{
+    justify-content: flex-start;
+}
+footer .column{
+    width: 80%;
+}
+}
+
